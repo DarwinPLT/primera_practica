@@ -1,0 +1,70 @@
+body{
+    background-image: url(https://fondosmil.com/fondo/20466.jpg)
+}
+
+
+
+a{
+    
+    text-align: center;
+    height: 30px;
+    background-color: rgb(10, 28, 44);
+    padding: 1%;
+    margin-right: 0%;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-radius: 50px;
+  text-decoration: darkblue;
+  font-display: 20%;
+  color: rgb(206, 205, 205);
+  
+  
+  
+ 
+  
+ 
+   
+
+
+}
+
+
+
+h1{
+    font-size: 80px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 5px;
+    color: rgb(0, 18, 46);
+    background-color: #535353ef;
+    border-radius: 100px;
+    text-shadow: 3px 1px 5px #fff;
+    margin-bottom: -5%;
+    margin-inline: 8%;
+}
+
+#reloj{
+    font-family: sans-serif;
+    font-size: 70px;
+    text-shadow: 4px 1px 5px #2DF;
+    color:#fff,
+}
+.reloj-contenedor{
+    background-color: rgb(12, 119, 206);
+    padding: 25px;
+    max-width: 350px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 10%;
+    
+}
+
+#fecha{
+    letter-spacing: 10px;
+    font-size: 15px;
+    
+}
+.animar{
+    border: rgb(0, 0, 0) 2px solid;
+}

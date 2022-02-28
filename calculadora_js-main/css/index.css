@@ -1,0 +1,100 @@
+a{
+    background: rgb(8, 57, 136);
+    color: rgb(14, 44, 126);
+	font-size: 30px;
+	border-radius: 7px;
+	text-decoration: 0px;
+	min-width: 130px;
+	position: relative;
+	display: inline-block;
+
+	text-align: center;
+	text-transform: uppercase; 
+
+	padding: 2px ;
+	margin: 20px 20px;
+	
+
+	
+}
+
+* {
+	font-family: 'Gill Sans Extrabold' , serif;
+	color: white;
+
+}
+
+body {  
+	margin: 0;
+	background-image: url(https://thumbs.dreamstime.com/b/concepto-de-las-noticias-calculadora-en-fondo-digital-33874491.jpg);
+
+}
+
+.container {  
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+
+ }
+
+
+ .calculadora {  
+ 	display: grid;
+ 	grid-template-columns: repeat(4, 75px);
+ 	grid-template-rows: 160px repeat(5, 75px);
+ 	background-color: rgb(40, 158, 142);
+ 	padding: 15px;
+ 	border-radius: 32px;
+ 	box-shadow: 15px 10px 0px 5px rgb(27, 91, 95);
+
+ }
+
+ button{
+ 	cursor: pointer;
+ 	margin: 5px;
+ 	padding: 0px;
+ 	border-radius: 32px;
+ 	font-size: 1.5em;
+ 	border: none;
+ 	background-color: rgb(12, 98, 211);
+ 	box-shadow: 5px 5px 10px -3px darkgrey, -5px -5px 15px 3px black;
+
+ }
+
+ button:active {
+ 	background-color: rgb(39, 39, 39);
+ }
+
+ button:focus {
+ 	outline: none;
+
+ }
+
+.col-2 {
+	grid-column: span 2;
+}
+
+ .display{
+ 	grid-column: 1 / -1;
+ 	padding: 16px;
+ 	display: flex;
+ 	margin: 10px 10px 20px;
+ 	flex-direction: column;
+ 	align-items: flex-end;
+ 	background: rgb(39, 39, 39);
+ 	border-radius: 32px;
+ 	text-align: right;
+ 	justify-content: space-between;
+ 	word-break: break-all;
+ 	box-shadow: 0px 0px 0px 10px rgb(104, 220, 255);
+
+ }
+
+#valor-actual {
+	font-size: 1.5em;
+}
+
+#valor-anterior {
+	font-size: 2em
+}
